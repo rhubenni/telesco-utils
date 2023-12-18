@@ -11,4 +11,5 @@ setup(
     install_requires=[
         'requests', 'python-dotenv', 'pyodbc'
     ],
+    python_requires='>=3.9'
 )
