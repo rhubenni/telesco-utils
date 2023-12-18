@@ -1,8 +1,8 @@
 import pyodbc
-from telesco_utils.debug_info import debug_info
+from .debug_info import debug_info
 
 
-class SQLHandler:
+class SQLHelper:
     @debug_info('DataCore Sync', 'connecting to database')
     def __init__(self, server_name: str, db_name: str):
         driver_names = [x for x in pyodbc.drivers() if x.endswith(' for SQL Server')]
