@@ -9,6 +9,6 @@ setup(
     url='https://github.com/rhubenni/telesco-utils',
     license='CC0-1.0',
     install_requires=[
-        'requests', 'python-dotenv'
+        'requests', 'python-dotenv', 'pyodbc'
     ],
 )
