@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="telesco_utils",
-    version="0.2",
+    version="0.4",
     packages=find_packages(),
     description='This package provides general-purpose functionality',
     author='Rhubenni Telesco',
